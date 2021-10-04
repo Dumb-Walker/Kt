@@ -21,7 +21,7 @@ abstract class Cars : FirstInterface, SecondInterface {
 
 class Suzuki : Cars() {
     override val carName = "Maruti"
-    override val carModel = "ac45"
+    override val carModel = "ac49"
     override val year = 2020
     override fun speed() {
         println("Speed - 120km/h $carName Suzuki $carModel - $year")
